@@ -12,7 +12,7 @@ body, html {
     background-image: url('./Images/st.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* This line ensures the background image stays fixed */
+    background-attachment: fixed; 
     height: 100%;
   }
 @media screen and (max-width: 767px) {
@@ -20,8 +20,8 @@ body, html {
       background-attachment: scroll;
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed; /* This line ensures the background image stays fixed */
-      height: 100%; /* Allow background scrolling on small screens */
+      background-attachment: fixed; 
+      height: 100%; 
     }
   }
 
