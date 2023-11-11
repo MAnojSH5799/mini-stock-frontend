@@ -17,7 +17,11 @@ body, html {
   }
 @media screen and (max-width: 767px) {
     body {
-      background-attachment: scroll; /* Allow background scrolling on small screens */
+      background-attachment: scroll;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* This line ensures the background image stays fixed */
+      height: 100%; /* Allow background scrolling on small screens */
     }
   }
 
